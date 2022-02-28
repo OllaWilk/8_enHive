@@ -2,9 +2,8 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../scss/style.scss",
-		"../scss/_variable.scss"
+		"../scss/style.scss"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,KAAK;CACnB"
+	"mappings": ""
 }
