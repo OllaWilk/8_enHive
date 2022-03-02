@@ -19,8 +19,8 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o public/css public/scss",
    
     "watch": "npm-run-all build:* build-dev -p watch:* ",
-    "watch:browsersync": "browser-sync start --proxy \"http://localhost:3000\" --files \"**/**/*.hbs\" \"public/css/style.css\" ",
-    "watch:sass": "onchange  \"public/scss/*.scss\" -- npm run build:sass"
+    "watch:browsersync": "browser-sync start --proxy \"http://localhost:3000\" --files \"**/**/*.hbs\" \"public/css/style.css\" \"public/js/scrypt.js\" ",
+    "watch:sass": "onchange  \"public/scss/*.scss\" \"public/scss/**/*.scss\" -- npm run build:sass"
   },
   "keywords": [],
   "author": "",

@@ -9,6 +9,14 @@
     span {
         color: $color-main;
     }
+
+    @media (max-width: $screen-sm) {
+        font-size: 40px;
+    }
+
+    @media (max-width: $screen-md) {
+        font-size: 50px;
+    }
 }
   
 .h2 {
@@ -18,6 +26,14 @@
     text-transform: uppercase;
     margin: 0 0 72px 0;
     color: $color-dark;
+
+    @media (max-width: $screen-sm) {
+        font-size: 30px;
+    }
+
+    @media (max-width: $screen-md) {
+        font-size: 30px;
+    }
 }
 
 .h3 {

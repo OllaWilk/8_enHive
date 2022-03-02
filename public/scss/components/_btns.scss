@@ -1,0 +1,12 @@
+.btn-nav {
+    @include btn($color-dark, $color-neutral, $color-dark);
+    border-radius: 0;
+
+    &:hover {
+        background: $color-dark;
+        color: $color-main;
+        transition:  0.2s linear;
+        font-weight: $font-bold;
+      }
+}
+

@@ -1,0 +1,16 @@
+.burger {
+    display: none;
+
+    @media (max-width: $screen-md) {
+      display: block;
+      cursor: pointer;
+    }
+
+      div {
+        width: 25px;
+        height: 2px;
+        background-color: $color-light;
+        margin: 5px;
+        transition: all 0.3s ease;
+      }
+  }

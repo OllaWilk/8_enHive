@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-  
+
 body {
   margin: 0;
   text-align: center;
@@ -13,6 +13,23 @@ body {
   line-height: 1.7;
   font-weight: $font-normal;
   color: $color-dark;
+
+  @media (max-width: $screen-md) {
+    overflow-x: hidden;
+  }
 }
 
+.container {
+  padding: 0;
+}
 
+a, a:hover {
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
